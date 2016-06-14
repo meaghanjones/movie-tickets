@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Movie Theatre</h2>
+      <form>
+        <label>Movie</label>
+        <select id="movie" class="form-control">
+          <option value=1>Little Mermaid</option>
+          <option value=2>Silence of the Lambs</option>
+          <option value=3>You've Got Mail</option>
+        </select>
+        <label>Age</label>
+        <select id="age" class="form-control">
+          <option value=1>Senior</option>
+          <option value=2>Adult</option>
+          <option value=1>Child</option>
+        </select>
+        <label>Time</label>
+        <select id="time" class="form-control">
+          <option value=2>Evening</option>
+          <option value=1>Matinee</option>
+          <option value=2>Late</option>
+        </select>
+      </form>
+      <button id="submit">Find Ticket Price</button>
+      <div>
+        <h3 id="result">The price of your movie is $<span id="price"></span>.00. Enjoy the show!</h3>
+      </div>
+    </div>
+  </body>
+</html>
