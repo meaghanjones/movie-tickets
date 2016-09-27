@@ -4,7 +4,7 @@
 
 ## Description
 
-_This web application finds the price of your movie selection based on different options._
+This web application finds the price of your movie selection based on different options.
 
 
 ## Setup/Installation Requirements
@@ -27,4 +27,4 @@ _This web application finds the price of your movie selection based on different
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2016 ** Meaghan and Stewart **
+Copyright (c) 2016 Meaghan and Stewart
